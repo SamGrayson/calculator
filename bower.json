@@ -1,0 +1,19 @@
+{
+  "name": "jqueryDemo",
+  "version": "0.0.0",
+  "authors": [
+    "Sam Grayson <samuel.c.grayson17@gmail.com>"
+  ],
+  "description": "bower json file",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

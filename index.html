@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <title>Calculator</title>
+</head>
+<body>
+
+<div class="calc">
+  <h3>Let's Do Some Math!</h3>
+
+  <input type="text" id="num_one" />
+  <br /><br />
+  <input type="text" id="num_two" />
+  <br /><br />
+  <input type="submit" value="Add" id="addBtn" />
+  <input type="submit" value="Subtract" id="subtractBtn" />
+  <input type="submit" value="Multiply" id="multiplyBtn" />
+  <input type="submit" value="Divide" id="divideBtn" />
+  <div class="answer">
+    <br />
+    Answer: <span id="answer"></span>
+  </div>
+</div>
+
+<!-- Bottom Calculator Thang -->
+<div class="calc2">
+  <div class="row1">
+    <button type="button" id="clear">C</button>
+    <div class="calcAnswer">
+      <span id="calcAns"></span>
+    </div>
+  </div>
+  <div class="row2">
+    <button type="button" class="number" id="seven" value="7">7</button>
+    <button type="button" class="number" id="eight" value="8">8</button>
+    <button type="button" class="number" id="nine" value="9">9</button>
+    <button type="button" class="function" id="divide" value="/">/</button>
+  </div>
+  <div class="row3">
+    <button type="button" class="number" id="four" value="4">4</button>
+    <button type="button" class="number" id="five" value="5">5</button>
+    <button type="button" class="number" id="six" value="6">6</button>
+    <button type="button" class="function" id="multiply" value="*">X</button>
+  </div>
+  <div class="row4">
+    <button type="button" class="number" id="one" value="1">1</button>
+    <button type="button" class="number" id="two" value="2">2</button>
+    <button type="button" class="number" id="three" value="3">3</button>
+    <button type="button" class="function" id="minus" value="-">-</button>
+  </div>
+  <div class="row5">
+    <button type="button" class="number" id="0" value="0">0</button>
+    <button type="button" class="number" id="dot" value=".">.</button>
+    <button type="button" id="equals" value="=">=</button>
+    <button type="button" class="function" id="plus" value="+">+</button>
+  </div>
+</div>
+
+<!-- javascript imports -->
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="bower_components/lodash/lodash.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

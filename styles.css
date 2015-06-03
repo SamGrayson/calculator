@@ -1,0 +1,54 @@
+.calc {
+  margin: 0 auto 100px auto;
+  width: 23%;
+  text-align: center;
+}
+
+.calc2 button {
+  background-color: rgba(102, 224, 102,0.8);
+  width: 24%;
+  height: 75px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: none;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: rgba(102, 224, 102,1);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.calcAnswer {
+  position: relative;
+  background-color: rgba(102, 224, 102,0.8);
+  margin: 0px 0 5px 0;
+  padding: 0;
+  border: none;
+  height: 75px;
+  width: 74%;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: right;
+  overflow: hidden;
+}
+
+.calcAnswer span{
+  font-size: 28px;
+  position: relative;
+  vertical-align: middle;
+  color: rgb(0, 0, 0);
+  top: 25%;
+  right: 5%;
+  overflow: hidden;
+}
+
+.calc2 {
+  width: 40%;
+  margin: 0 auto;
+}

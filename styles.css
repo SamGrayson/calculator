@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.calc2 button {
+.number {
   background-color: rgba(102, 224, 102,0.8);
   width: 24%;
   height: 75px;
@@ -14,6 +14,45 @@
   font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.function {
+  background-color: rgba(75, 175, 102,0.8);
+  width: 24%;
+  height: 75px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: none;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#clear  {
+  background-color: rgba(102, 224, 102,0.8);
+  width: 24%;
+  height: 75px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: none;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#equals {
+  background-color: rgba(75, 175, 102,0.8);
+  width: 24%;
+  height: 75px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: none;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#clear:hover, #equals:hover {
+  background-color: rgba(102, 224, 102,1);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
 
 button:focus {
   outline: none;
@@ -50,5 +89,23 @@ button:hover {
 
 .calc2 {
   width: 40%;
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
+}
+
+
+@media (max-width: 750px) {
+  .calc2 {
+    width: 80%;
+    margin: 0 auto 100px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .calc2 {
+    width: 100%;
+    margin: 0 auto 100px auto;
+  }
+  .function {
+    width: 22%;
+  }
 }
